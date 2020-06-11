@@ -4,7 +4,8 @@
   "author": "rangdl",
   "scripts": {
     "dev": "vuepress dev .",
-    "build": "vuepress build ."
+    "build": "vuepress build .",
+	"deploy": "bash deploy.sh"
   },
   "devDependencies": {
     "vuepress": "1.4.1",
