@@ -1,7 +1,7 @@
 {
   "name": "vuepress-blog",
   "version": "1.0.0",
-  "author": "reco_luan",
+  "author": "rangdl",
   "scripts": {
     "dev": "vuepress dev .",
     "build": "vuepress build .",
