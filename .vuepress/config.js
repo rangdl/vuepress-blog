@@ -5,7 +5,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
-	['script', {}, `
+    ['script', {}, `
 				var _hmt = _hmt || [];
 				(function() {
 				  var hm = document.createElement("script");
@@ -26,10 +26,11 @@ module.exports = {
       //     { text: 'vuepress-reco', link: '/docs/theme-reco/' }
       //   ]
       // },
-      { text: 'Contact', 
+      {
+        text: 'Contact',
         icon: 'reco-message',
         items: [
-			{ text: '百度统计', link: 'https://tongji.baidu.com/web/10000222719/overview/index?siteId=15199457', icon: 'reco-github' },
+          { text: '百度统计', link: 'https://tongji.baidu.com/web/10000222719/overview/index?siteId=15199457', icon: 'reco-github' },
           { text: 'GitHub', link: 'https://github.com/rangdl', icon: 'reco-github' }
         ]
       }
@@ -41,7 +42,7 @@ module.exports = {
         'plugin',
         'api'
       ]
-    },  
+    },
     type: 'blog',
     // 博客设置
     blogConfig: {
@@ -55,18 +56,18 @@ module.exports = {
       }
     },
     friendLink: [
-      // {
-      //   title: '午后南杂',
-      //   desc: 'Enjoy when you can, and endure when you must.',
-      //   email: '1156743527@qq.com',
-      //   link: 'https://www.recoluan.com'
-      // },
-      // {
-      //   title: 'vuepress-theme-reco',
-      //   desc: 'A simple and beautiful vuepress Blog & Doc theme.',
-      //   avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-      //   link: 'https://vuepress-theme-reco.recoluan.com'
-      // },
+      {
+        title: '午后南杂',
+        desc: 'Enjoy when you can, and endure when you must.',
+        email: '1156743527@qq.com',
+        link: 'https://www.recoluan.com'
+      },
+      {
+        title: 'vuepress-theme-reco',
+        desc: 'A simple and beautiful vuepress Blog & Doc theme.',
+        avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+        link: 'https://vuepress-theme-reco.recoluan.com'
+      },
     ],
     logo: '/logo.png',
     // 搜索设置
@@ -80,12 +81,12 @@ module.exports = {
     author: 'rangdl',
     // 作者头像
     authorAvatar: '/avatar.png',
-	huawei: true,
+    huawei: true,
     // 备案号
-	// record: 'xxxx',
-	// recordLink: 'ICP 备案指向链接',
-	// cyberSecurityRecord: '公安部备案文案',
-	// cyberSecurityLink: '公安部备案指向链接',
+    // record: 'xxxx',
+    // recordLink: 'ICP 备案指向链接',
+    // cyberSecurityRecord: '公安部备案文案',
+    // cyberSecurityLink: '公安部备案指向链接',
     // 项目开始时间
     startYear: '2020'
     /**
