@@ -10,7 +10,7 @@ home: true
 #   borderRadius: '1rem',
 # }
 bgImageStyle: {
-  height: '450px'
+  height: '350px'
 }
 isShowTitleInHome: false
 actionText: Guide
