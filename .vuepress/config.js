@@ -31,7 +31,12 @@ module.exports = {
     // }
   },
   markdown: {
-    lineNumbers: true
+    lineNumbers: true,
+    toc: { includeLevel: [2, 3] },
+    // extendMarkdown: md => {
+    //   // 使用更多的 markdown-it 插件!
+    //   md.use(require('markdown-it-xxx'))
+    // }
   },
   plugins: [
     ['@vuepress-reco/comments']

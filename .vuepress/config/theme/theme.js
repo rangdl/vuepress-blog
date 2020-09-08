@@ -5,6 +5,7 @@ module.exports = Object.assign({}, {
   searchMaxSuggestions: 10,
   // 自动形成侧边导航
   sidebar: 'auto',
+  subSidebar: 'auto',
   // 最后更新时间
   lastUpdated: 'Last Updated',
   // 作者
