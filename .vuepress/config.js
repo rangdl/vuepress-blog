@@ -21,7 +21,7 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
-      title: "颖上",
+      title: "让丹琳的博客",
       description: '在哪里跌倒，就在哪里睡一会。'
     },
     // '/en/': {
